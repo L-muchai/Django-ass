@@ -1,0 +1,22 @@
+ {% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="{% static 'css/urembo.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<a href="{% url 'about' %}">About</a>
+<a href="{% url 'Home' %}">Index</a>
+<a href="{% url 'Services' %}">Services</a>
+<a href="{% url 'Contactus' %}">ContactUs</a>
+<h2>This is the homepage</h2>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consequatur deleniti dolorum et, excepturi id, illo ipsum libero maiores molestiae nam nisi numquam quaerat quis quod reiciendis rem, reprehenderit voluptas.</span><span>Amet cumque explicabo facere, mollitia vel voluptate voluptates? Aspernatur, at cum deleniti deserunt excepturi explicabo itaque labore laborum necessitatibus nulla pariatur, perferendis ratione repellendus, repudiandae saepe ullam unde voluptas voluptates.</span><span>A animi aperiam dolore, dolores dolorum eius eligendi facilis incidunt molestiae nesciunt officiis porro quaerat quasi, quis quo saepe tenetur vel vero! Accusantium dolore earum nesciunt qui quo, quod tempora.</span><span>Earum expedita illo numquam officiis pariatur perspiciatis sit vitae voluptates. Amet aut consequuntur, culpa cupiditate doloribus, eveniet, facilis fuga laboriosam maxime natus nisi nulla officiis sequi similique sit unde voluptatum.</span><span>Alias, aliquam aliquid aspernatur assumenda atque, cum, dolorem doloribus est fugiat harum illum ipsam mollitia numquam placeat porro quaerat quia quis quos ratione reiciendis reprehenderit saepe sequi soluta veritatis voluptatum.</span></p>
+<img src="{% static 'images/Bellingham.jpeg' %}" alt="">
+</body>
+</html>

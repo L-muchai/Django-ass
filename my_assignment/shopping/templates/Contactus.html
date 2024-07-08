@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+     {% load static %}
+    <link rel="stylesheet" href="{% static 'css/urembo.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<a href="{% url 'about' %}">About</a>
+<a href="{% url 'Home' %}">Index</a>
+<a href="{% url 'Services' %}">Services</a>
+<a href="{% url 'Contactus' %}">ContactUs</a>
+<h2>Contact Us Page</h2>
+<img src="{% static 'images/osimehn.webp' %}" alt="">
+
+</body>
+</html>
